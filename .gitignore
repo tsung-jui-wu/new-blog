@@ -1,0 +1,19 @@
+# Hugo build output — Actions builds this, don't commit it
+public/
+resources/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Hugo temp files
+.hugo_build.lock
+```
+
+Create this as `.gitignore` in the root of your project. Your repo will then only contain:
+```
+.github/workflows/deploy.yml   ← tells Actions how to build
+hugo.toml                      ← your config
+themes/hugo-theme-stack/       ← the theme (as a submodule reference)
+content/                       ← your posts and pages
+static/                        ← images, avatar, etc.
