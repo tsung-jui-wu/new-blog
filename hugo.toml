@@ -20,9 +20,11 @@ paginate = 5
   [params.sidebar]
     emoji = "🖥️"
     subtitle = "tech, thoughts & things close to heart"
-    avatar.enabled = true
-    avatar.local = true
-    avatar.src = "img/avatar.jpg"
+
+  [params.sidebar.avatar]
+    enabled = true
+    local = true
+    src = "img/ghost.png"
 
   [params.article]
     math = false
