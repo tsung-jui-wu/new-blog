@@ -16,7 +16,7 @@ rssFullContent = true
   [sidebar.avatar]
     enabled = true
     local = true
-    src = "img/avatar.jpg"
+    src = "img/ghost.png"
 
 [article]
   math = false
