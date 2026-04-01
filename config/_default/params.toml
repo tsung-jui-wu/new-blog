@@ -13,10 +13,7 @@ rssFullContent = true
   emoji = "🖥️"
   subtitle = "tech, thoughts & things close to heart"
 
-  [sidebar.avatar]
-    enabled = true
-    local = true
-    src = "img/ghost.png"
+  avatar = "img/ghost.png"
 
 [article]
   math = false
